@@ -1,9 +1,72 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Linux; arm_64; Android 14; SM-A525F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.6834.2037 YaApp_Android/25.20.1 YaSearchBrowser/25.20.1 BroPP/1.0 SA/3 Mobile Safari/537.36" version="27.1.0">
   <diagram name="Страница — 1" id="abG2WIZprXUvzD18qoXl">
-    <mxGraphModel>
+    <mxGraphModel dx="1093" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xglpP0Gnpyi6twFj_ajE-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xglpP0Gnpyi6twFj_ajE-1" target="xglpP0Gnpyi6twFj_ajE-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xglpP0Gnpyi6twFj_ajE-1" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; User interface&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;+ main.c(input/output, menu)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xglpP0Gnpyi6twFj_ajE-2" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="xglpP0Gnpyi6twFj_ajE-1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xglpP0Gnpyi6twFj_ajE-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xglpP0Gnpyi6twFj_ajE-5" target="xglpP0Gnpyi6twFj_ajE-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xglpP0Gnpyi6twFj_ajE-5" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="70" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xglpP0Gnpyi6twFj_ajE-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xglpP0Gnpyi6twFj_ajE-7" target="xglpP0Gnpyi6twFj_ajE-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xglpP0Gnpyi6twFj_ajE-7" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Application Logic&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ App.c/h(command management)&lt;br&gt;+ auth.c/h(authentification)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ crud.c/h(CRUD-operations)&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="400" y="40" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xglpP0Gnpyi6twFj_ajE-8" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="xglpP0Gnpyi6twFj_ajE-7">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xglpP0Gnpyi6twFj_ajE-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xglpP0Gnpyi6twFj_ajE-12" target="xglpP0Gnpyi6twFj_ajE-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xglpP0Gnpyi6twFj_ajE-12" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="520" y="190" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xglpP0Gnpyi6twFj_ajE-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xglpP0Gnpyi6twFj_ajE-14" target="xglpP0Gnpyi6twFj_ajE-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xglpP0Gnpyi6twFj_ajE-14" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Work with data&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ db_utils.c/h(SQL-requests)&lt;br&gt;+ utils.c/h(auxiliary functions)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ people.db(db-file)&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="155" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xglpP0Gnpyi6twFj_ajE-15" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="xglpP0Gnpyi6twFj_ajE-14">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xglpP0Gnpyi6twFj_ajE-17" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;External Dependencies&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ sqlite3.h (SQLite library)&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="340" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xglpP0Gnpyi6twFj_ajE-18" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="xglpP0Gnpyi6twFj_ajE-17">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xglpP0Gnpyi6twFj_ajE-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xglpP0Gnpyi6twFj_ajE-19" target="xglpP0Gnpyi6twFj_ajE-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xglpP0Gnpyi6twFj_ajE-19" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="340" y="280" width="20" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
